@@ -1,0 +1,31 @@
+Zaroor, main aapko pratyek pramukh sawal ke short answers provide kar raha hoon:
+
+**JavaScript Basics:**
+
+1. **JavaScript ke data types kya hain?**
+   - JavaScript ke data types hain: Number, String, Boolean, Object, Undefined, aur Null.
+
+2. **var, let, aur const mein kya antar hai?**
+   - `var` function-scoped hai, `let` aur `const` block-scoped hai. `var` ko redeclare kar sakte hain, lekin `let` aur `const` ko nahi. `let` ke value ko change kar sakte hain, lekin `const` ke value ko change nahi kar sakte.
+
+3. **Implicit (coercion) aur explicit type conversion (casting) mein kya antar hai?**
+   - Implicit type conversion automatically hoti hai, jabki explicit type conversion manually ki jaati hai. Implicit type conversion mein JavaScript automatically ek data type ko dusre data type mein convert karta hai, jabki explicit type conversion mein hum type coercion operators jaise ki `parseInt()`, `parseFloat()`, ya `String()` ka use karte hain.
+
+4. **Prototypal inheritance kya hai aur kaise kaam karta hai?**
+   - Prototypal inheritance ek JavaScript feature hai jo inheritance ko implement karta hai. Har object ek prototype property rakhta hai, jisse wo inherited properties aur methods ko access kar sakta hai.
+
+5. **Callback functions aur Promises ke beech antar kya hai?**
+   - Callback functions asynchronous programming mein ek common technique hai, jabki Promises modern JavaScript programming mein ek alternative hai. Callbacks mein callback function ko dusri function ke arguments ke roop mein pass kiya jaata hai, jabki Promises async operations ko handle karne ke liye use hoti hain aur hum chain ke through multiple async operations ko execute kar sakte hain.
+
+**Scope aur Closure:**
+
+1. **Lexical scope kya hai?**
+   - Lexical scope yeh define karta hai ki konsi variables ek function ke liye accessible hain, based on where the variables are declared.
+
+2. **Closure kya hai aur kaise kaam karta hai?**
+   - Closure ek function hai jo apne enclosing function ke variables aur parameters ko access kar sakta hai, bahar ke scope se bhi. Closure ka use mainly private variables ko create karne ke liye hota hai.
+
+3. **Global scope aur local scope ke antar kya hai?**
+   - Global scope mein variables globally accessible hote hain, jabki local scope mein variables sirf unke defined block mein accessible hote hain.
+
+(Agle jawaabon ke liye, mujhe kuch zyada space chahiye hoga. Kya main aage badh sakta hoon?)
